@@ -84,31 +84,32 @@ Everything is trained on an 80/20 train-test split and scored mainly with R². R
 
 - Hit Predict — you'll get the estimated total fare (per-passenger, with surcharges applied) and a comparison chart.
 
-### Project Structure
+## Project Structure
 
+````text
 SkyFare-Predictor/
-├── app.py # Streamlit app: form, encoding, prediction, pricing logic, chart
-├── Price_Detection.ipynb # EDA, feature engineering, model comparison, GridSearchCV tuning
-├── requirements.txt # dependencies
+├── app.py                    # Streamlit app: form, encoding, prediction, pricing logic, chart
+├── Price_Detection.ipynb     # EDA, feature engineering, model comparison, GridSearchCV tuning
+├── requirements.txt          # dependencies
 ├── model/
-│ └── best_model.pkl # Tuned Random Forest, persisted (~15 MB)
+│   └── best_model.pkl        # Tuned Random Forest, persisted (~15 MB)
 ├── train/
-│ ├── Data_Train.csv # Training data
-│ └── Data_Train.xlsx
+│   ├── Data_Train.csv        # Training data
+│   └── Data_Train.xlsx
 ├── test/
-│ ├── Test_set.csv # Test data
-│ └── Test_set.xlsx
-├── Sample_submission.csv # Expected output format
+│   ├── Test_set.csv          # Test data
+│   └── Test_set.xlsx
+├── Sample_submission.csv     # Expected output format
 ├── Sample_submission.xlsx
 ├── documents/
-│ ├── Flight_Arch.docx # Architecture document
-│ ├── Flight_HLD.docx # High-level design
-│ ├── Flight_LLD.docx # Low-level design
-│ ├── Flight_WF.docx # Workflow document
-│ ├── Flight_Pro_Rep.pptx # Project report deck
-│ └── Flight Prediction.mp4 # Demo video
+│   ├── Flight_Arch.docx      # Architecture document
+│   ├── Flight_HLD.docx       # High-level design
+│   ├── Flight_LLD.docx       # Low-level design
+│   ├── Flight_WF.docx        # Workflow document
+│   ├── Flight_Pro_Rep.pptx   # Project report deck
+│   └── Flight Prediction.mp4 # Demo video
 ├── .devcontainer/
-│ └── devcontainer.json # Codespaces config
+│   └── devcontainer.json     # Codespaces config
 └── README.md
 
 ### Installation
@@ -117,7 +118,7 @@ SkyFare-Predictor/
 git clone [https://github.com/AnkitKumar-CS-create/SkyFare-Predictor.git](https://github.com/AnkitKumar-CS-create/SkyFare-Predictor.git)
 cd SkyFare-Predictor
 pip install -r requirements.txt
-```
+````
 
 ### Contact
 
