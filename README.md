@@ -111,13 +111,6 @@ SkyFare-Predictor/
 │ └── devcontainer.json # Codespaces config
 └── README.md
 
-### Contact
-
-Ankit Kumar | B.Tech CSE (Bioinformatics), Vellore Institute of Technology | GitHub: AnkitKumar-CS-create | Email: kumarankit9431780451@gmail.com
-
-Made by Ankit Kumar
-EOF
-
 ### Installation
 
 ```bash
@@ -125,3 +118,11 @@ git clone [https://github.com/AnkitKumar-CS-create/SkyFare-Predictor.git](https:
 cd SkyFare-Predictor
 pip install -r requirements.txt
 ```
+
+### Contact
+
+Ankit Kumar | B.Tech CSE (Bioinformatics), Vellore Institute of Technology GitHub: AnkitKumar-CS-create
+Email: kumarankit9431780451@gmail.com
+
+Made by Ankit Kumar
+EOF
